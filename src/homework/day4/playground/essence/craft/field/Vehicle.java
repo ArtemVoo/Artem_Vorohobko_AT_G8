@@ -6,7 +6,7 @@ public abstract class Vehicle extends Matter {
     protected String name;
 
     public Vehicle(String name, int mass) {
-        super (mass);
+        super(mass);
         this.name = name;
     }
 
