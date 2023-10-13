@@ -1,8 +1,12 @@
 package homework.day4.playground.essence.craft.air;
 
+import homework.day4.playground.essence.Flyable;
 import homework.day4.playground.essence.Matter;
+import homework.day4.playground.essence.craft.Transportable;
 
-public abstract class Aircraft extends Matter {
+import java.awt.datatransfer.Transferable;
+
+public abstract class Aircraft extends Matter implements Flyable, Transportable {
     protected String name;
 
     public Aircraft(String name, int mass) {
