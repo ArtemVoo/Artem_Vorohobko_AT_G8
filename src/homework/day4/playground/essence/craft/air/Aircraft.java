@@ -4,12 +4,10 @@ import homework.day4.playground.essence.Flyable;
 import homework.day4.playground.essence.Matter;
 import homework.day4.playground.essence.craft.Transportable;
 
-import java.awt.datatransfer.Transferable;
-
 public abstract class Aircraft extends Matter implements Flyable, Transportable {
     protected String name;
 
-    public Aircraft(String name, int mass) {
+    public Aircraft(int mass, String name) {
         super(mass);
         this.name = name;
     }

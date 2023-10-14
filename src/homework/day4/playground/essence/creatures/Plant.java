@@ -5,7 +5,7 @@ import homework.day4.playground.essence.Matter;
 public abstract class Plant extends Matter {
     protected String name;
 
-    public Plant(String name, int mass) {
+    public Plant(int mass, String name) {
         super(mass);
         this.name = name;
     }
