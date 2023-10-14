@@ -6,7 +6,7 @@ public class Rocket extends Aircraft {
     }
     @Override
     public void fly(String direction) {
-        String str = String.format("I am %s, my name is %s and I am flying to %s", Rocket.class.getName(), this.getName(), direction);
+        String str = String.format("I am %s, my name is %s and I am flying to %s", this.getClass().getSimpleName(), this.getName(), direction);
         System.out.println(str);
     }
 }
