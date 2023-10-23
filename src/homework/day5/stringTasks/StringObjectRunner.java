@@ -1,4 +1,4 @@
-package homework.day5.String_task;
+package homework.day5.stringTasks;
 
 public class StringObjectRunner {
 
