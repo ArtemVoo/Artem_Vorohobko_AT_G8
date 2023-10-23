@@ -1,4 +1,4 @@
-package homework.day5.String_task;
+package homework.day5.stringTasks;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
