@@ -12,7 +12,7 @@ public class SparklingWater extends Water {
         this.bubbles = bubbles;
     }
 
-    public void setOpened() throws InterruptedException {
+    public void setOpened() {
         isOpened = true;
         degas();
     }

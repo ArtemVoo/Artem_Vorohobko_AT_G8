@@ -41,7 +41,7 @@ public abstract class Water {
         this.temperature = temperature;
     }
 
-    public void setOpened() throws InterruptedException {  //??
+    public void setOpened() {  //??
     }
 
     public void pump() {   //??
