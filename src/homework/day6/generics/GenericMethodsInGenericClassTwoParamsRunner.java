@@ -1,5 +1,8 @@
 package homework.day6.generics;
 
+import homework.day4.playground.essence.creatures.Crawlable;
+import homework.day4.playground.essence.creatures.Crocodile;
+
 public class GenericMethodsInGenericClassTwoParamsRunner {
 
     public static void main(String[] args) {
@@ -39,5 +42,6 @@ public class GenericMethodsInGenericClassTwoParamsRunner {
         genericMethodsInGenericClassStringIntInt.genericMethodHalfGenArgs(2, 3, "OMG");
 
         System.out.println("--------");
+
     }
 }
